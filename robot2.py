@@ -6,8 +6,8 @@ if command == 'вперед':
 elif command == 'назад':
     finish = start - step
 if finish > 99:
-   print(99)
+   print(finish % 100)
 elif finish < 0:
-   print(0)
+   print(finish % 100)
 else:
     print(finish)
