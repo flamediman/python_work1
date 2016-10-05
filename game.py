@@ -45,5 +45,5 @@ def rpsls(player_choice):
     else :
         print('вы проиграли')
 
-rpsls("ножницы")
+rpsls(input('Ваш ход '))
 
